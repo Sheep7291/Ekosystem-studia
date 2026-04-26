@@ -34,7 +34,7 @@ int main() {
      unsigned short min=2, max=6;
 
      for(int i=0; i<10; i++)
-         cout << GEN::losujPomiedzy(max, min) <<" ";
+         cout << GEN::losujPomiedzy(min, max) <<" ";
 
      cout << endl << endl;
 
