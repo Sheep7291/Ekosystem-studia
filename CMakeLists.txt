@@ -10,4 +10,8 @@ add_executable(untitled main.cpp
         organizm.h
         ustawienia.h
         GeneratorLosowy.cpp
-        GeneratorLosowy.h)
+        GeneratorLosowy.h
+        Sasiedztwo.cpp
+        Sasiedztwo.h
+        ZLab06.cpp
+        ZLab06.h)
