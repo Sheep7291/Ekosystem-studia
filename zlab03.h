@@ -4,11 +4,20 @@
 using namespace std;
 
 class Prostokat {
+
 private:
     string nazwa;
     double bok1, bok2;
     bool poprawny;
     double obwod, pole;
+
+    istream &operator>>(istream &strumien,
+ Prostokat &prostokat) {
+        double a, b;
+        strumien >> a >> b;
+        prostokat.zmienBoki(a,b);
+        return strumien;
+    }
 
 
     bool czyPoprawny(double bok1, double bok2);
